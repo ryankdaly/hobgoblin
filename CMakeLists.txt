@@ -1,6 +1,6 @@
 # ! many lines commented out here, included for demo of full codebase release
 cmake_minimum_required(VERSION 3.20)
-project(Hobgoblin CXX)
+project(hobgoblin CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -75,5 +75,6 @@ target_link_libraries(hobgoblin INTERFACE
 
 add_subdirectory(tools/meshpack)
 #add_subdirectory(apps/goblin_slayer)
+
 
 add_compile_definitions(NOMINMAX WIN32_LEAN_AND_MEAN)
