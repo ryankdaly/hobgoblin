@@ -120,7 +120,7 @@ this project would not be possible without them
 - [fmt](https://github.com/fmtlib/fmt) --- Victor Zverovich, and fmt contributors
 - [GLFW](https://github.com/glfw/glfw) --- Camilla Löwy, Marcus Geelnard
 
-**thank you**
+**thank you**  
 credit all contributors appropriately and include all licenses
 
 this project is considered open source and free to use
@@ -165,3 +165,4 @@ changes and updates will be added accordingly as development allows
     - most if not all gameplay features will be included in hobgoblin as part of the open source project
     - these features include networking/**multiplayer**
 ## THANK YOU
+
