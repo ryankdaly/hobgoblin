@@ -113,12 +113,12 @@ F1 - FPS mode
 **see /licenses**      
 this project would not be possible without them  
 
-- **stb_image** --- Sean Barrett
-- **cgltf** --- Johannes Kuhlmann
-- **GLM** --- G-Truc
-- **spdlog** --- Gabi Melman
-- **fmt** --- Victor Zverovich, and fmt contributors
-- **GLFW** --- Camilla Löwy, Marcus Geelnard
+- [stb_image](https://github.com/nothings/stb) --- Sean Barrett
+- [cgltf](https://github.com/jkuhlmann/cgltf) --- Johannes Kuhlmann
+- [GLM](https://github.com/g-truc/glm) --- G-Truc
+- [spdlog](https://github.com/gabime/spdlog) --- Gabi Melman
+- [fmt](https://github.com/fmtlib/fmt) --- Victor Zverovich, and fmt contributors
+- [GLFW](https://github.com/glfw/glfw) --- Camilla Löwy, Marcus Geelnard
 
 **thank you**
 credit all contributors appropriately and include all licenses
