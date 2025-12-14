@@ -160,6 +160,7 @@ changes and updates will be added accordingly as development allows
     - 3.3 simulation level LOD
 4. Chat System
     - GUI button or "t" key to talk, separate receivier and transmission ranges
+    - chats show above a speakers head for a brief period of time
     - chat log tab on GUI button press only
 5. Skeletons + Animation
     - basic animations: walk, sprint, idle, crouch (with idle/movement), prone (with idle/movement), basic combat swing
@@ -182,6 +183,7 @@ changes and updates will be added accordingly as development allows
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
