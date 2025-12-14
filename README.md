@@ -6,6 +6,7 @@ the only currently released tool is the meshpack tool
 which can be used to export your models from a blender file to a binary file for game runteimte using the demo exe  
 please see **MANUAL.md** for instructions on how to use the meshpack tool  
 please see the [ROADMAP](#roadmap) for more info on future targets for full release, this will be updated accordingly  
+major recent updates will be posted at the top here
 thank you for your patience  
     
 What is Hobgoblin?
@@ -15,7 +16,8 @@ What is Hobgoblin?
 - minimal third party code dependencies
 - everything is considered WIP
 - Linux support is planned
-- an educational tool with documentation for developers to learn how to create their own games and engines using C++
+- an educational tool with documentation for developers to learn how to create their own games and engines using C++  
+    - will include full stack game development guides: from C++ programming and engine architecture to game asset creation including modeling, uv mapping, and animations  
 ## REQUIREMENTS
 ### BUILD ENVIRONMENT
 - **OS:** Windows 10/11 (x64)
@@ -48,7 +50,7 @@ What is Hobgoblin?
                     stb_image.h
         apps/
             ---> your game goes here for simplicity
-            goblin_slayer/ (not given yet, shown for example)
+            goblin_kingdom/ (not given yet, shown for example)
         tools/
             meshpack/
                 CMakeLists.txt
@@ -78,7 +80,7 @@ see **MANUAL.md** for instructions on how to use the engine and create your own 
 see **MANUAL.md** for instructions  
 easy usage in demo
 ## DEMO
-the game demo can be found in **/demo/apps/goblin_slayer/goblin_slayer.exe**  
+the game demo can be found in **/demo/apps/goblin_kingdom/goblin_kingdom.exe**  
 **!note**: currently dev console is meant to be used mainly for the meshpack tool  
 using in its current state will break your current game loop  
 this will be updated and fixed when necessary for testing  
@@ -164,4 +166,5 @@ changes and updates will be added accordingly as development allows
     - consider the first 9 steps of this roadmap
     - most if not all gameplay features will be included in hobgoblin as part of the open source project
     - these features include networking/**multiplayer**
+
 ## THANK YOU
