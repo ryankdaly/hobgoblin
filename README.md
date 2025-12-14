@@ -143,14 +143,24 @@ changes and updates will be added accordingly as development allows
     - 2.1 pickup/drop action (world<->player hands)
     - 2.2 right click context menu (same ranges as current selection ranges for FPS/Free Cam modes)
     - 2.3 clickable GUI
-        - 2.3.1 inventory: grid system per equipment w/ inventory piece (backpack, bags, jacket, cargo pants, etc.),           
+        - 2.3.1 inventory: grid system per equipment w/ inventory piece (backpack, bags, jacket, cargo pants, etc.),
+        - 2.3.2 health
+        - 2.3.3 journal (pages for factions, family, skills, and stubs for individual encyclopedia and notes pages)
+        - 2.3.4  fps hud
+    - 2.4 item drag in inventory (such as hands<->backpack or backpack<->jacket or just rearranging a container)
+    - 2.5 loading/progress bar for pickup/drop, item drag and other future actions
+    - 2.6 inspectable (right click context menu)  
 3. World
-    - 3.1 worldseeding
+    - 3.1 seeding
         - true random world seeding using our state of the art algorithm and entropy source, meaning everytime you start a new game you will get an entirely new world, including the way the world evolves
-    - 3.2 chunking + world limits
-    - 3.3 culling, simulation level LOD
+    - 3.2 chunking grid + coordinate system
+    - 3.3 chunk generation
+    - 3.4 chunk streaming/culling
+    - 3.5 end wall
+    - 3.3 simulation level LOD
 4. Chat System
     - GUI button or "t" key to talk, separate receivier and transmission ranges
+    - chat log tab on GUI button press only
 5. Skeletons + Animation
     - basic animations: walk, sprint, idle, crouch (with idle/movement), prone (with idle/movement), basic combat swing
     - crouching and proning affect transmission range for chatting 
@@ -158,18 +168,21 @@ changes and updates will be added accordingly as development allows
     - system to keep track of separate visual components for a single entity
     - example: body mesh, hair mesh, armor meshes, etc.
 7. NPCs, AI, Pathing, & Jobs
-    - infrastructure largely relies on experimentation results once above steps are done
+    - infrastructure largely relies on experimentation results once above steps are done, simple optimized and scalable are the primary goals
 8. Animations + Combat
-    - AABB collider bodymap? relies on step 5's completion
-9. File IO saving/loading, Menus, & Configs
+    - simple AABB collider bodymap and weapon/equipment colliders with appropriate animations potentially? relies on step 5's completion
+    - reactions (such as general hit, stun, etc.) & stamina drains
+9. File IO saving/loading, Configs, & Menus
 10. Future Gameplay
     - we have many more features planned that we are not quite ready to reveal, so stay tuned!
+        - including a small LLM integration
     - once these first 9 steps are finished and the engine has passed testing, this roadmap will be updated with those features
     - consider the first 9 steps of this roadmap
     - most if not all gameplay features will be included in hobgoblin as part of the open source project
-    - these features include networking/**multiplayer**
+        - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
