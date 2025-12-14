@@ -3,7 +3,7 @@
 **!coming soon!**  
 the full codebase release is pending certain feature deliverables being met and properly tested  
 the only currently released tool is the meshpack tool  
-which can be used to export your models from a blender file to a binary file for game runteimte using the demo exe  
+which can be used to export your models from a blender file to a binary file for game runtime using the demo exe or your own build  
 please see **MANUAL.md** for instructions on how to use the meshpack tool  
 please see the [ROADMAP](#roadmap) for more info on future targets for full release, this will be updated accordingly  
 major recent updates will be posted at the top here
@@ -168,3 +168,4 @@ changes and updates will be added accordingly as development allows
     - these features include networking/**multiplayer**
 
 ## THANK YOU
+
