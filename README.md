@@ -10,7 +10,7 @@ major recent updates will be posted at the top here
 thank you for your patience  
     
 What is Hobgoblin?
-- scalable, lightweight windows c++20 game engine
+- scalable, lightweight windows C++20 game engine
 - minimal d3d11 renderer, custom ECS, prefab/scene loader, and physics lite systems
 - designed for deterministic simulation and full source ownership
 - minimal third party code dependencies
@@ -170,5 +170,6 @@ changes and updates will be added accordingly as development allows
     - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
