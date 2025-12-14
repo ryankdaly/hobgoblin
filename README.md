@@ -17,7 +17,8 @@ What is Hobgoblin?
 - everything is considered WIP
 - Linux support is planned
 - an educational tool with documentation for developers to learn how to create their own games and engines using C++  
-    - will include full stack game development guides: from C++ programming and engine architecture to game asset creation including modeling, uv mapping, and animations  
+    - will include full stack game development guides: from C++ programming and engine architecture to game asset creation including modeling, uv mapping, and animations
+- note that the hobgoblin engine is specifically designed for the game goblin_kingdom to speedup development time but the open source engine and instructional docs are intended to provide the tools for other developers to modify and use engine as they see fit for their game without a paywall
 ## REQUIREMENTS
 ### BUILD ENVIRONMENT
 - **OS:** Windows 10/11 (x64)
@@ -93,26 +94,26 @@ i - inventory
 j - journal  
 left shift - sprint  
 space - jump  
-left click - interact/select (range limit)  
+left click - interact/select (range limit, must be close to entity)  
 left alt - head tilt  
 F1 - free cam mode  
 ~ - dev console  
 **FREE CAM MODE:**   
-left alt - move player  
-left shift - enable multiple entity selection  
+left alt - move player entity  
+left click - interact/select (no limit)  
+left shift+click - select multiple entities  
 left click+drag - box select  
 F3 - dev toggle (world coordinates, AABB visuals, hidden game stats)    
 esc - exit (you need to exit both game render and game terminal)   
 h - health  
 i - inventory  
 j - journal  
-left click - interact/select  
 F1 - FPS mode  
 ~ - dev console  
 ## CHANGELOG & FEATURES
 - please see **CHANGELOG.md** for a full list of engine features and a deployment changelog
 ## CREDITS & USAGE
-**see /licenses**      
+see **/licenses**      
 this project would not be possible without them  
 
 - [stb_image](https://github.com/nothings/stb) --- Sean Barrett
@@ -138,10 +139,11 @@ changes and updates will be added accordingly as development allows
     - 1.6 world coordinate/origin strategy (decide and apply across transform/physics)
     - 1.7 determinism guardrails (central RNG, unstable iteration dependeancies, basic state-hash function scaffold)
     - 1.8 minimal in engine performance HUD/profiling hooks (frame timing, entity/component counts, per system timing, queue sizes)
-2. ECS<->UI
-    - 2.1 right click context menu
-    - 2.2 clickable UI (inventory + health)
-    - 2.3 drop/pickup/transfer item actions
+2. ECS<->UIX
+    - 2.1 pickup/drop action (world<->player hands)
+    - 2.2 right click context menu (same ranges as current selection ranges for FPS/Free Cam modes)
+    - 2.3 clickable GUI
+        - 2.3.1 inventory: grid system per equipment w/ inventory piece (backpack, bags, jacket, cargo pants, etc.),           
 3. World
     - 3.1 worldseeding
         - true random world seeding using our state of the art algorithm and entropy source, meaning everytime you start a new game you will get an entirely new world, including the way the world evolves
@@ -168,4 +170,5 @@ changes and updates will be added accordingly as development allows
     - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
