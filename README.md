@@ -181,12 +181,12 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
 10. Future Gameplay
     - we have many more features planned that we are not quite ready to reveal, so stay tuned!
         - including a small LLM integration
-    - once these first 9 steps are finished and the engine has passed testing, this roadmap will be updated with those features
-    - consider the first 9 steps of this roadmap
+    - once these first 9 steps are finished and the engine has passed testing, this roadmap will be updated with those features and the engine will likely be fully released
     - most if not all gameplay features will be included in hobgoblin as part of the open source project
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
