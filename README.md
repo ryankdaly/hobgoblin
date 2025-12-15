@@ -68,7 +68,6 @@ What is Hobgoblin?
                 example.meshbin
                 example.meta.json
                 example_albedo.png (can delete, output to verify texture used)
-        demo/
         licenses/
         README.md
         MANUAL.md
@@ -186,6 +185,7 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
