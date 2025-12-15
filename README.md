@@ -125,10 +125,9 @@ this project would not be possible without them
 **thank you**  
 credit all contributors appropriately and include all licenses
 
-all copyrights and trademarks retained by BrainJuice LLC
-the hobgoblin engine is considered open source and free to modify and use for your own projects as long all credits are correct
-shipped with an MIT license, see **hb_LICENSE.txt** in **/licenses**
-however goblin_slayer is closed source and not free to use or distribute, although any game files provided in this project are for educational purposes
+all copyrights and trademarks retained by BrainJuice LLC  
+the hobgoblin engine is considered open source and free to modify and use for your own projects as long all credits are correct  
+shipped with an MIT license, see **hb_LICENSE.txt** in **/licenses**  
 ## ROADMAP
 This is an **active** roadmap  
 changes and updates will be added accordingly as development allows  
@@ -185,6 +184,7 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
