@@ -78,9 +78,9 @@ What is Hobgoblin?
 see **MANUAL.md** for instructions on how to use the engine and create your own game with it
 ## MESHPACK TOOL
 see **MANUAL.md** for instructions  
-easy usage in demo
+easy usage in demo  
 ## DEMO
-**demo will be deployed soon**
+**demo will be deployed soon**  
 **!note**: currently dev console is meant to be used mainly for the meshpack tool  
 using in its current state will break your current game loop  
 this will be updated and fixed when necessary for testing  
@@ -185,6 +185,7 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
