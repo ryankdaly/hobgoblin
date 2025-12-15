@@ -51,7 +51,7 @@ What is Hobgoblin?
                     stb_image.h
         apps/
             ---> your game goes here for simplicity
-            goblin_kingdom/ (not given yet, shown for example)
+            goblin_kingdom/ (not given, show for example)
         tools/
             meshpack/
                 CMakeLists.txt
@@ -81,7 +81,7 @@ see **MANUAL.md** for instructions on how to use the engine and create your own 
 see **MANUAL.md** for instructions  
 easy usage in demo
 ## DEMO
-the game demo can be found in **/demo/apps/goblin_kingdom/goblin_kingdom.exe**  
+**demo will be deployed soon**
 **!note**: currently dev console is meant to be used mainly for the meshpack tool  
 using in its current state will break your current game loop  
 this will be updated and fixed when necessary for testing  
@@ -126,11 +126,14 @@ this project would not be possible without them
 **thank you**  
 credit all contributors appropriately and include all licenses
 
-this project is considered open source and free to use
+all copyrights and trademarks retained by BrainJuice LLC
+the hobgoblin engine is considered open source and free to modify and use for your own projects as long all credits are correct
+shipped with an MIT license, see **hb_LICENSE.txt** in **/licenses**
+however goblin_slayer is closed source and not free to use or distribute, although any game files provided in this project are for educational purposes
 ## ROADMAP
 This is an **active** roadmap  
 changes and updates will be added accordingly as development allows  
-demo deployment is almost there, just cleaning up the game directory and a couple small gameplay bugfixes while simultaneously working on Phase 1  
+demo deployment is almost there, just cleaning up the game directory and a couple small gameplay bugfixes and most importantly choosing deployment host while simultaneously working on Phase 1  
 1. Performance/Critical
     - Done. ~~1.1 central spatial index (uniform grid, central world query structure)~~
     - 1.2 render command buffer + sorting + instancing
@@ -184,6 +187,7 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
