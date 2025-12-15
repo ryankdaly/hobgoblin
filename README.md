@@ -103,7 +103,7 @@ left alt - move player entity
 left click - interact/select (no limit)  
 left shift+click - select multiple entities  
 left click+drag - box select  
-F3 - dev toggle (world coordinates, AABB visuals, hidden game stats)    
+F3 - debug toggle (world coordinates, AABB visuals, hidden game stats)    
 esc - exit (you need to exit both game render and game terminal)   
 h - health  
 i - inventory  
@@ -129,11 +129,12 @@ credit all contributors appropriately and include all licenses
 this project is considered open source and free to use
 ## ROADMAP
 This is an **active** roadmap  
-changes and updates will be added accordingly as development allows
+changes and updates will be added accordingly as development allows  
+demo deployment is almost there, just cleaning up the game directory and a couple small gameplay bugfixes while simultaneously working on Phase 1  
 1. Performance/Critical
-    - **1.1** central spatial index (uniform grid, central world query structure)
-    - **1.2** render command buffer + sorting + instancing
-    - **1.3** zero allocation hot paths (framearena + scratch)
+    - Done. ~~1.1 central spatial index (uniform grid, central world query structure)~~
+    - 1.2 render command buffer + sorting + instancing
+    - 1.3 zero allocation hot paths (framearena + scratch)
     - 1.4 system cadence + per ticks budget (scalable to hardware, adaptive to frame rate/sim time with on/off) 
     - 1.5 physics query consolidation + ignore rules
     - 1.6 world coordinate/origin strategy (decide and apply across transform/physics)
@@ -183,6 +184,7 @@ changes and updates will be added accordingly as development allows
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
