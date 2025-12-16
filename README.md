@@ -134,7 +134,7 @@ changes and updates will be added accordingly as development allows
 demo deployment is almost there, just cleaning up the game directory and a couple small gameplay bugfixes and most importantly choosing deployment host while simultaneously working on Phase 1  
 1. Performance/Critical
     - Done. ~~1.1 central spatial index (uniform grid, central world query structure)~~
-    - 1.2 render command buffer + sorting + instancing
+    - Done. ~~1.2 render command buffer + sorting + instancing~~
     - 1.3 zero allocation hot paths (framearena + scratch)
     - 1.4 system cadence + per ticks budget (scalable to hardware, adaptive to frame rate/sim time with on/off) 
     - 1.5 physics query consolidation + ignore rules
@@ -184,6 +184,7 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
