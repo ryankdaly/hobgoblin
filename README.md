@@ -1,6 +1,7 @@
 # HOBGOBLIN
 **!under construction!**  
 **!coming soon!**  
+checkout our [youtube channel](https://www.youtube.com/@NuroForgeStudio) and our [latest video](https://www.youtube.com/watch?v=TEN7QB7Igtc)  
 the full codebase release is pending certain feature deliverables being met and properly tested  
 the only currently released tool is the meshpack tool  
 which can be used to export your models from a blender file to a binary file for game runtime using the demo exe or your own build  
@@ -184,6 +185,7 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
