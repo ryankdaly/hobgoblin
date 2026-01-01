@@ -10,9 +10,9 @@ please see the [ROADMAP](#roadmap) for more info on future targets for full rele
 major recent updates will be posted at the top here
 thank you for your patience  
     
-What is Hobgoblin?
-- scalable, lightweight windows C++20 game engine
-- minimal d3d11 renderer, custom ECS, prefab/scene loader, and physics lite systems
+**What** is Hobgoblin?
+- scalable, lightweight windows C++20 game engine using data oriented design
+- minimal d3d11 renderer, custom ECS, prefab/scene loader, physics lite systems and queries, hot reloadable assets, zero allocation hot paths
 - designed for deterministic simulation and full source ownership
 - minimal third party code dependencies
 - everything is considered WIP
@@ -20,6 +20,8 @@ What is Hobgoblin?
 - an educational tool with documentation for developers to learn how to create their own games and engines using C++  
     - will include full stack game development guides: from C++ programming and engine architecture to game asset creation including modeling, uv mapping, and animations
 - note that the hobgoblin engine is specifically designed for the game goblin_kingdom to speedup development time but the open source engine and instructional docs are intended to provide the tools for other developers to modify and use engine as they see fit for their game without a paywall
+**Why** Hobgoblin?
+- many existing engines are built for general purpose game creation. engines such as unity, unreal, and godot do not cater to memory determinism. at large scale simulations with many long lived AI agents, these engines are not sustainable. this includes network level determinism. as such, hobgoblin aims to provide a high degree of optimization and scalability in regard to memory for deterministic simulations that other engines do not provide.
 ## REQUIREMENTS
 ### BUILD ENVIRONMENT
 - **OS:** Windows 10/11 (x64)
@@ -185,6 +187,7 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
