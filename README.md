@@ -139,8 +139,8 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
 1. Performance/Critical
     - Done. ~~1.1 central spatial index (uniform grid, central world query structure)~~
     - Done. ~~1.2 render command buffer + sorting + instancing~~
-    - 1.3 zero allocation hot paths (framearena + scratch)
-    - 1.4 system cadence + per ticks budget (scalable to hardware, adaptive to frame rate/sim time with on/off) 
+    - Done. ~~1.3 zero allocation hot paths (framearena + scratch)~~
+    - Done. ~~1.4 system cadence + per ticks budget (scalable to hardware, adaptive to frame rate/sim time with on/off)~~
     - 1.5 physics query consolidation + ignore rules
     - 1.6 world coordinate/origin strategy (decide and apply across transform/physics)
     - 1.7 determinism guardrails (central RNG, unstable iteration dependeancies, basic state-hash function scaffold)
@@ -188,6 +188,7 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
