@@ -144,7 +144,7 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
     - 1.5 physics query consolidation + ignore rules
     - 1.6 world coordinate/origin strategy (decide and apply across transform/physics)
     - 1.7 determinism guardrails (central RNG, unstable iteration dependeancies, basic state-hash function scaffold)
-    - 1.8 minimal in engine performance HUD/profiling hooks (frame timing, entity/component counts, per system timing, queue sizes)
+    - Done. ~~1.8 minimal in engine performance HUD/profiling hooks (frame timing, entity/component counts, per system timing, queue sizes)~~
 2. ECS<->UIX
     - 2.1 pickup/drop action (world<->player hands)
     - 2.2 right click context menu (same ranges as current selection ranges for FPS/Free Cam modes)
@@ -188,6 +188,7 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
