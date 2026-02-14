@@ -136,16 +136,7 @@ shipped with an MIT license, see **hb_LICENSE.txt** in **/licenses**
 This is an **active** roadmap  
 changes and updates will be added accordingly as development allows  
 demo deployment is almost there, just cleaning up the game directory and a couple small gameplay bugfixes and most importantly choosing deployment host while simultaneously working on Phase 1  
-1. Performance/Critical
-    - Done. ~~1.1 central spatial index (uniform grid, central world query structure)~~
-    - Done. ~~1.2 render command buffer + sorting + instancing~~
-    - Done. ~~1.3 zero allocation hot paths (framearena + scratch)~~
-    - Done. ~~1.4 system cadence + per ticks budget (scalable to hardware, adaptive to frame rate/sim time with on/off)~~
-    - 1.5 physics query consolidation + ignore rules
-    - 1.6 world coordinate/origin strategy (decide and apply across transform/physics)
-    - 1.7 determinism guardrails (central RNG, unstable iteration dependeancies, basic state-hash function scaffold)
-    - Done. ~~1.8 minimal in engine performance HUD/profiling hooks (frame timing, entity/component counts, per system timing, queue sizes)~~
-2. ECS<->UIX
+1. ECS<->UIX
     - 2.1 pickup/drop action (world<->player hands)
     - 2.2 right click context menu (same ranges as current selection ranges for FPS/Free Cam modes)
     - 2.3 clickable GUI
@@ -156,7 +147,7 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
     - 2.4 item drag in inventory (such as hands<->backpack or backpack<->jacket or just rearranging a container)
     - 2.5 loading/progress bar for pickup/drop, item drag and other future actions
     - 2.6 inspectable (right click context menu)  
-3. World
+2. World
     - 3.1 seeding
         - true random world seeding using our state of the art algorithm and entropy source, meaning everytime you start a new game you will get an entirely new world, including the way the world evolves
     - 3.2 chunking grid + coordinate system
@@ -164,30 +155,31 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
     - 3.4 chunk streaming/culling
     - 3.5 end wall
     - 3.3 simulation level LOD
-4. Chat System
+3. Chat System
     - GUI button or "t" key to talk, separate receivier and transmission ranges
     - chats show above a speakers head for a brief period of time
     - chat log tab on GUI button press only
-5. Skeletons + Animation
+4. Skeletons + Animation
     - basic animations: walk, sprint, idle, crouch (with idle/movement), prone (with idle/movement), basic combat swing
     - crouching and proning affect transmission range for chatting 
-6. Appearance System
+5. Appearance System
     - system to keep track of separate visual components for a single entity
     - example: body mesh, hair mesh, armor meshes, etc.
-7. NPCs, AI, Pathing, & Jobs
+6. NPCs, AI, Pathing, & Jobs
     - infrastructure largely relies on experimentation results once above steps are done, simple optimized and scalable are the primary goals
-8. Animations + Combat
+7. Animations + Combat
     - simple AABB collider bodymap and weapon/equipment colliders with appropriate animations potentially? relies on step 5's completion
     - reactions (such as general hit, stun, etc.) & stamina drains
-9. File IO saving/loading, Configs, & Menus
-10. Future Gameplay
+8. File IO saving/loading, Configs, & Menus
+9. Future Gameplay
     - we have many more features planned that we are not quite ready to reveal, so stay tuned!
         - including a small LLM integration
-    - once these first 9 steps are finished and the engine has passed testing, this roadmap will be updated with those features and the engine source code will likely be fully released
+    - once these first 8 steps are finished and the engine has passed testing, this roadmap will be updated with those features and the engine source code will likely be fully released
     - most if not all gameplay features will be included in hobgoblin as part of the open source project
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
