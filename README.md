@@ -147,7 +147,8 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
     - 2.4 item drag in inventory (such as hands<->backpack or backpack<->jacket or just rearranging a container)
     - 2.5 loading/progress bar for pickup/drop, item drag and other future actions
     - 2.6 inspectable (right click context menu)  
-2. World
+2. File IO saving/loading, Configs, & Menus
+3. World
     - 3.1 seeding
         - true random world seeding using our state of the art algorithm and entropy source, meaning everytime you start a new game you will get an entirely new world, including the way the world evolves
     - 3.2 chunking grid + coordinate system
@@ -155,22 +156,21 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
     - 3.4 chunk streaming/culling
     - 3.5 end wall
     - 3.3 simulation level LOD
-3. Chat System
+4. Chat System
     - GUI button or "t" key to talk, separate receivier and transmission ranges
     - chats show above a speakers head for a brief period of time
     - chat log tab on GUI button press only
-4. Skeletons + Animation
+5. NPCs, AI, Pathing, & Jobs
+    - infrastructure largely relies on experimentation results once above steps are done, simple optimized and scalable are the primary goals
+6. Skeletons + Animation
     - basic animations: walk, sprint, idle, crouch (with idle/movement), prone (with idle/movement), basic combat swing
     - crouching and proning affect transmission range for chatting 
-5. Appearance System
+7. Appearance System
     - system to keep track of separate visual components for a single entity
     - example: body mesh, hair mesh, armor meshes, etc.
-6. NPCs, AI, Pathing, & Jobs
-    - infrastructure largely relies on experimentation results once above steps are done, simple optimized and scalable are the primary goals
-7. Animations + Combat
+8. Animations + Combat
     - simple AABB collider bodymap and weapon/equipment colliders with appropriate animations potentially? relies on step 5's completion
     - reactions (such as general hit, stun, etc.) & stamina drains
-8. File IO saving/loading, Configs, & Menus
 9. Future Gameplay
     - we have many more features planned that we are not quite ready to reveal, so stay tuned!
         - including a small LLM integration
@@ -179,6 +179,7 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
         - these features include networking/**multiplayer**
 
 ## THANK YOU
+
 
 
 
