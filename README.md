@@ -134,8 +134,7 @@ the hobgoblin engine is considered open source and free to modify and use for yo
 shipped with an MIT license, see **hb_LICENSE.txt** in **/licenses**  
 ## ROADMAP
 This is an **active** roadmap  
-changes and updates will be added accordingly as development allows  
-demo deployment is almost there, just cleaning up the game directory and a couple small gameplay bugfixes and most importantly choosing deployment host while simultaneously working on Phase 1  
+changes and updates will be added accordingly as development allows    
 
 1. NPCs, AI, Pathing, & Jobs
     - infrastructure largely relies on experimentation results once above steps are done, simple optimized and scalable are the primary goals
@@ -148,7 +147,7 @@ demo deployment is almost there, just cleaning up the game directory and a coupl
 4. Future Gameplay
     - we have many more features planned that we are not quite ready to reveal, so stay tuned!
         - including a small LLM integration
-    - once these first 8 steps are finished and the engine has passed testing, this roadmap will be updated with those features and the engine source code will likely be fully released
+    - once these first 3 steps are finished and the engine has passed testing, this roadmap will be updated with those features and the engine source code will likely be fully released
     - most if not all gameplay features will be included in hobgoblin as part of the open source project
         - these features include networking/**multiplayer**
 
