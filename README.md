@@ -136,42 +136,16 @@ shipped with an MIT license, see **hb_LICENSE.txt** in **/licenses**
 This is an **active** roadmap  
 changes and updates will be added accordingly as development allows  
 demo deployment is almost there, just cleaning up the game directory and a couple small gameplay bugfixes and most importantly choosing deployment host while simultaneously working on Phase 1  
-1. ECS<->UIX
-    - 2.1 pickup/drop action (world<->player hands)
-    - 2.2 right click context menu (same ranges as current selection ranges for FPS/Free Cam modes)
-    - 2.3 clickable GUI
-        - 2.3.1 inventory: grid system per equipment w/ inventory piece (backpack, bags, jacket, cargo pants, etc.),
-        - 2.3.2 health
-        - 2.3.3 journal (pages for factions, family, skills, and stubs for individual encyclopedia and notes pages)
-        - 2.3.4  fps hud
-    - 2.4 item drag in inventory (such as hands<->backpack or backpack<->jacket or just rearranging a container)
-    - 2.5 loading/progress bar for pickup/drop, item drag and other future actions
-    - 2.6 inspectable (right click context menu)  
-2. File IO saving/loading, Configs, & Menus
-3. World
-    - 3.1 seeding
-        - true random world seeding using our state of the art algorithm and entropy source, meaning everytime you start a new game you will get an entirely new world, including the way the world evolves
-    - 3.2 chunking grid + coordinate system
-    - 3.3 chunk generation
-    - 3.4 chunk streaming/culling
-    - 3.5 end wall
-    - 3.3 simulation level LOD
-4. Chat System
-    - GUI button or "t" key to talk, separate receivier and transmission ranges
-    - chats show above a speakers head for a brief period of time
-    - chat log tab on GUI button press only
-5. NPCs, AI, Pathing, & Jobs
+
+1. NPCs, AI, Pathing, & Jobs
     - infrastructure largely relies on experimentation results once above steps are done, simple optimized and scalable are the primary goals
-6. Skeletons + Animation
+2. Skeletons + Animation
     - basic animations: walk, sprint, idle, crouch (with idle/movement), prone (with idle/movement), basic combat swing
     - crouching and proning affect transmission range for chatting 
-7. Appearance System
-    - system to keep track of separate visual components for a single entity
-    - example: body mesh, hair mesh, armor meshes, etc.
-8. Animations + Combat
+3. Animations + Combat
     - simple AABB collider bodymap and weapon/equipment colliders with appropriate animations potentially? relies on step 5's completion
     - reactions (such as general hit, stun, etc.) & stamina drains
-9. Future Gameplay
+4. Future Gameplay
     - we have many more features planned that we are not quite ready to reveal, so stay tuned!
         - including a small LLM integration
     - once these first 8 steps are finished and the engine has passed testing, this roadmap will be updated with those features and the engine source code will likely be fully released
